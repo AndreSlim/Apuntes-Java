@@ -3,7 +3,7 @@ package POO.Metodos;
 import javax.swing.*;
 
 // Clase Operación
-public class Operacion {
+public class Calculadora {
 
     // Atributos de la clase
     int suma, resta, multiplicacion, division;

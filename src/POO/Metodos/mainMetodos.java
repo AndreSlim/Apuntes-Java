@@ -7,7 +7,7 @@ public class mainMetodos {
     public static void main(String[] args) {
 
         // Creando el objeto
-        Operacion op = new Operacion();
+        Calculadora cal = new Calculadora();
 
         // Matriz con los números a utilizar
         int[] numeros = new int[2];
@@ -15,10 +15,10 @@ public class mainMetodos {
         leerNumeros(numeros);
 
         // Enviando datos como Argumentos
-        op.sumar(numeros[0], numeros[1]);
-        op.restar(numeros[0], numeros[1]);
-        op.multiplicar(numeros[0], numeros[1]);
-        op.dividir(numeros[0], numeros[1]);
+        cal.sumar(numeros[0], numeros[1]);
+        cal.restar(numeros[0], numeros[1]);
+        cal.multiplicar(numeros[0], numeros[1]);
+        cal.dividir(numeros[0], numeros[1]);
     }
 
     // Método con dato de retorno (Solución menos óptima solo para fines prácticos)
